@@ -1,0 +1,94 @@
+
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-card {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.cart-card img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.cart-name {
+  flex: 1;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.cart-price-orignal {
+  font-weight: bold;
+}
+
+.cart-price {
+  font-weight: bold;
+}
+
+.inc,
+.dec {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.quantity {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.cashout-link button {
+  background-color: #87ceeb; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.cashout-link button:hover {
+  background-color: #5f9ea0; 
+}
+
+.cart-summary {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cart-summary-heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cart-summary-price {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.cashout-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
