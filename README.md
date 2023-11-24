@@ -32,6 +32,12 @@ This is a simple e-commerce web application built using React.js and Firebase. U
    2. install dependancies
    npm install
 ## Usage
+
+online usage
+link to the website:
+sign in credentials: 
+email kennicmwimu@gmail.com
+password: admin123
 Start the development server:
 npm start
 Open your browser and go to http://localhost:3000.
