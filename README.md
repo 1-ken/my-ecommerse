@@ -10,7 +10,6 @@ This is a simple e-commerce web application built using React.js and Firebase. U
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -32,16 +31,16 @@ This is a simple e-commerce web application built using React.js and Firebase. U
    cd e-commerce-react-app  
    2. install dependancies
    npm install
-Usage
+## Usage
 Start the development server:
 npm start
 Open your browser and go to http://localhost:3000.
 
-Dependencies
+## Dependencies
 React.js
 Firebase (for authentication and database)
 Other dependencies specified in package.json
-Contributing
+ ## Contributing
 If you'd like to contribute to the project, please follow these steps:
 
 Fork the repository.
